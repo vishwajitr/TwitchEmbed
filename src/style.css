@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin: 0;
+}
+.container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.twitchblocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#channelMsg{
+    font-size: 25px;
+}
+main {
+    padding:  50px 100px;
+    height: 100vh;
+    width: 100%;
+    background-color: #ba68c8;
+}
+
+main #twitch{
+    height: 700px;
+    width: 1000px;
+    background-color: black;
+}
+
+.sidebar {
+    min-width: 300px;
+    text-align: left;
+    /* background-color: #9c27b0; */
+    height: 100vh;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.userslist ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
+.userslist li {
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
